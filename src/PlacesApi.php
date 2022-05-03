@@ -153,7 +153,7 @@ class PlacesApi
     {
         $this->checkKey();
         
-        $params['placeid'] = $placeId;
+        $params['place_id'] = $placeId;
         
         $response = $this->makeRequest(self::DETAILS_SEARCH_URL, $params);
         
